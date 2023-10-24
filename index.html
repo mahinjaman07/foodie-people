@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie People</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/footer.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <section class="container">
+            <div class="row justify-content-around align-items-center pt-3 pb-3">
+                <div class="col col-3">
+                    <h1 class="m-0 fw-bolder">Foodie People</h1>
+                </div>
+                <div class="col col-4 text-end">
+                    <button class="singUp-btn">Sing Up</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- Sub Body Section -->
+
+        <section id="sub-body" class="rounded rounded-3 align-items-center justify-content-center text-center mb-5">
+            <div id="sub-body-container" class=" main-sub-body bg-black bg-opacity-50 text-center pt-5 pb-5 rounded rounded-3 ">
+                    <div id="search-field" class="w-50 mx-auto">
+                        <div id="title-container" class="container pt-5 pb-3 mt-5">
+                            <h1 class="display-1 text-white fw-bolder">Taste Our Delicious Best Foods</h1>
+                            <p class="text-white w-75 mx-auto fw-medium">There are many variations of passages of Lorem Ipsum available, but the
+                                majority have suffered alteration in some form,by injected humou.</p>
+                        
+                        </div>
+                        
+                        <div id="search-container" class="d-flex mx-auto pb-5 justify-content-center">
+                            <input id="input-text" placeholder="🔍 Search Any Food" type="text"
+                                class="w-50 border border-0 p-2 rounded rounded-2 ">
+                            <button id="search-btn" class="w-25 border border-0 p-2 rounded rounded-2">Search</button>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- Food Product Body -->
+        <section class="container mt-5">
+            <div class="foodContainer justify-content-between align-items-center text-center">
+                <h1 class="mt-3 mb-5">Your Favorite Food</h1>
+                <div id="foodContainer" class="gap-4" >
+
+                </div>
+                <button id="all-btn" class="btn w-25 mx-auto mt-3 mb-3" onclick="location.href='allFood.html'">Show All</button>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        
+        <div class="modal" tabindex="-1" id="modal-div">
+            <div class="modal-dialog">
+                
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+            <section>
+                <div  class="pt-5 pb-3" style="background-color: rgba(255, 193, 7, 0.05)">
+                    <div id="footerContainer" class="row mx-auto p-2 justify-content-center w-75 ">
+                        <div class="col col-8 row" id="mainuContainer">
+                            <div class="col col-3">
+                                <h3 class="footer-title">Section</h3>
+                                <ul class="list-container gap-2 d-flex flex-column list-unstyled">
+                                    <li class="h-100 pt-3 pb-3 fw-light"><a href="#"
+                                            class="w-100 pt-2 pb-2 ps-3 pe-3 text-decoration-none rounded rounded-2 bg-transparent position-relative overflow-hidden text-black border border-black ">Home</a>
+                                    </li>
+                                    <li class="h-100 pt-3 pb-3 fw-light"><a href="#"
+                                            class="w-100 pt-2 pb-2 ps-3 pe-3 text-decoration-none rounded rounded-2 bg-transparent position-relative overflow-hidden text-black border border-black">Features</a>
+                                    </li>
+                                    <li class="h-100 pt-3 pb-3 fw-light"><a href="#"
+                                            class="w-100 pt-2 pb-2 ps-3 pe-3 text-decoration-none rounded rounded-2 bg-transparent position-relative overflow-hidden text-black border border-black">Pricing</a>
+                                    </li>
+                                    <li class="h-100 pt-3 pb-3 fw-light"><a href="#"
+                                            class="w-100 pt-2 pb-2 ps-3 pe-3 text-decoration-none rounded rounded-2 bg-transparent position-relative overflow-hidden text-black border border-black">FAQs</a>
+                                    </li>
+                                    <li class="h-100 pt-3 pb-3 fw-light"><a href="#"
+                                            class="w-100 pt-2 pb-2 ps-3 pe-3 text-decoration-none rounded rounded-2 bg-transparent position-relative overflow-hidden text-black border border-black">About</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col ">
+                                <h3 class="footer-title">Section</h3>
+                                <ul class="list-container gap-2 d-flex flex-column list-unstyled">
+                                    <li class="h-100 pt-3 pb-3 fw-light"><a href="#"
+                                            class="w-100 pt-2 pb-2 ps-3 pe-3 text-decoration-none rounded rounded-2 bg-transparent position-relative overflow-hidden text-black border border-black">UIUX
+                                            Design</a></li>
+                                    <li class="h-100 pt-3 pb-3 fw-light"><a href="#"
+                                            class="w-100 pt-2 pb-2 ps-3 pe-3 text-decoration-none rounded rounded-2 bg-transparent position-relative overflow-hidden text-black border border-black">Product
+                                            Design</a></li>
+                                    <li class="h-100 pt-3 pb-3 fw-light"><a href="#"
+                                            class="w-100 pt-2 pb-2 ps-3 pe-3 text-decoration-none rounded rounded-2 bg-transparent position-relative overflow-hidden text-black border border-black">Back
+                                            End Developer </a></li>
+                                    <li class="h-100 pt-3 pb-3 fw-light"><a href="#"
+                                            class="w-100 pt-2 pb-2 ps-3 pe-3 text-decoration-none rounded rounded-2 bg-transparent position-relative overflow-hidden text-black border border-black">Front
+                                            End Developer</a></li>
+                                </ul>
+                            </div>
+                            <div class="col ">
+                                <h3 class="footer-title">Section</h3>
+                                <ul class="list-container gap-2 d-flex flex-column list-unstyled">
+                                    <li class="h-100 pt-3 pb-3 fw-light"><a href="#"
+                                            class="w-100 pt-2 pb-2 ps-3 pe-3 text-decoration-none rounded rounded-2 bg-transparent position-relative overflow-hidden text-black border border-black">FAQ
+                                        </a></li>
+                                    <li class="h-100 pt-3 pb-3 fw-light"><a href="#"
+                                            class="w-100 pt-2 pb-2 ps-3 pe-3 text-decoration-none rounded rounded-2 bg-transparent position-relative overflow-hidden text-black border border-black">Support</a>
+                                    </li>
+                                    <li class="h-100 pt-3 pb-3 fw-light"><a href="#"
+                                            class="w-100 pt-2 pb-2 ps-3 pe-3 text-decoration-none rounded rounded-2 bg-transparent position-relative overflow-hidden text-black border border-black">Privacy
+                                            Policy</a></li>
+                                    <li class="h-100 pt-3 pb-3 fw-light"><a href="#"
+                                            class="w-100 pt-2 pb-2 ps-3 pe-3 text-decoration-none rounded rounded-2 bg-transparent position-relative overflow-hidden text-black border border-black">Terms
+                                            of Service</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="subscribeContainer" class="col col-4">
+                            <div class="col d-flex flex-column gap-3 ">
+                                <h3 class="footer-title">Subscribe to our newsletter</h3>
+                                <p >There are many variations of passages of available, but the majority have
+                                    suffered</p>
+                                <div id="subscribeField" class="d-flex gap-3">
+                                    <input id="input-email" type="text" placeholder="Email Address">
+                                    <button id="subscribe-btn" class="btn">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    <!-- JavaScript File -->
+    <script src="js/search.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/json/functional.js"></script>
+    <script src="js/json/fish.js"></script>
+    <script src="js/json/chicken.js"></script>
+    <script src="js/json/chocolate.js"></script>
+    <script src="js/body.js"></script>
+    
+</body>
+</html>
